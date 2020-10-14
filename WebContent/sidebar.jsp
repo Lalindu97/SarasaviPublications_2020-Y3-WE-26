@@ -1,93 +1,80 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>Sarasavi Publications</title>
 <link rel="icon" sizes="16x16"
 	href="https://sarasavi.net/themes/sarasavi/assets/images/favicon.ico" />
-<meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="css/fontAwesome.css">
-<link rel="stylesheet" href="css/hero-slider.css">
-<link rel="stylesheet" href="css/owl-carousel.css">
-<link rel="stylesheet" href="css/datepicker.css">
-<link rel="stylesheet" href="css/templatemo-style.css">
-<link rel="stylesheet" type="text/css" href="css/dashboard.css">
-<link rel="stylesheet" type="text/css" href="css/columns.css">
-
-
-
-<link rel="stylesheet"
-	href="https://sarasavi.net/themes/sarasavi/assets/vendor/fontawesome-5.6.1/css/all.min.css">
-<link
-	href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900"
-	rel="stylesheet">
-
-
-
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head>
 <style>
-div.c {
-	width: 12%;
+a.impact {
+  font-family: Impact, Charcoal, sans-serif, FM_Samantha sinhala font;
 }
+.sansserif {
+  font-family: Arial, Helvetica, sans-serif;
+    font-weight:;
+    font-size: 16px;
+    color: black;
+}
+
 </style>
 </head>
-
 <body>
-	<div class="sidebar-header">
-		<div class="sidenav c">
 
-			<a href="Dashboard.jsp">Home</a>
-			<hr>
-			<a href="EmployeeHome.jsp">Catalog</a>
-			<hr>
-			<a href="InventoryHome.jsp">Sarasavi Publications</a>
-			<hr>
-			<a href="AccountsHome.jsp">International Schools BookList</a>
-			<hr>
-			<a href="TransportHome.jsp">Doha Discounted Book List</a>
-			<hr>
-			<a href="EventHome.jsp">Swarna Pusthaka</a>
-			<hr>
-			<a href="RoomHome.jsp">Sinhala Book List</a>
-			<hr>
-			<a href="MaintenanceHome.jsp">English Book List</a>
-			<hr>
-			<a href="ResturantHome.jsp">New Arrivals</a>
-			<hr>
-			<a href="ResturantHome.jsp">Best Selling</a>
-			<hr>
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()"> &times;</button>
+  <a href="#" class="w3-bar-item w3-button sansserif">Home</a>
+  <br>
+  <a href="#" class="w3-bar-item w3-button sansserif">Catalogues</a>  <br>
+  <a href="#" class="w3-bar-item w3-button sansserif">Sarasavi Publications</a>  <br>
+   <a href="#" class="w3-bar-item w3-button sansserif">International Schools Booklist</a>  <br>
+  <a href="#" class="w3-bar-item w3-button sansserif">Doha Disconts</a>  <br>
+  <a href="#" class="w3-bar-item w3-button " >ස්වර්ණ පුස්තක</a>  <br>
+  <a href="#" class="w3-bar-item w3-button sansserif">Sinhala Booklist</a>  <br>
+  <a href="#" class="w3-bar-item w3-button sansserif">English Booklist</a>  <br>
+  <a href="#" class="w3-bar-item w3-button sansserif">New Arrivals</a>  <br>
+   <a href="#" class="w3-bar-item w3-button sansserif">Best Selling</a>  <br>
+</div>
+
+<div id="main">
+
+<div class="w3-white">
+  <button id="openNav" class="w3-button w3-white w3-xlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <jsp:include page="header.jsp"></jsp:include>
+   <div class="row">
+									
+									<div class="col-md-1">se</div>
+									<div class="col-md-10"><!-- /# Paste our code here -->
+
+		This is our page
+		<!-- /# Body End from Here --></div>
+									<div class="col-md-1">d</div>
+		
 		</div>
+<hr>
+<jsp:include page="footer.jsp"></jsp:include>
+	</div></div>
 
-	</div>
+</div>
 
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "15%";
+  document.getElementById("mySidebar").style.width = "15%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
 
-
-
-
-	<script
-		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
-		type="text/javascript"></script>
-	<script>
-		window.jQuery
-				|| document
-						.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
-	</script>
-
-	<script src="js/vendor/bootstrap.min.js"></script>
-
-	<script src="js/datepicker.js"></script>
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
 </body>
 </html>

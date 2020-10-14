@@ -1,113 +1,350 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Sarasavi Publications</title>
-<link rel="icon" sizes="16x16"
-	href="https://sarasavi.net/themes/sarasavi/assets/images/favicon.ico" />
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="ISO-8859-1">
+
 
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="css/fontAwesome.css">
-<link rel="stylesheet" href="css/hero-slider.css">
-<link rel="stylesheet" href="css/owl-carousel.css">
-<link rel="stylesheet" href="css/datepicker.css">
-<link rel="stylesheet" href="css/templatemo-style.css">
-<link rel="stylesheet" type="text/css" href="css/dashboard.css">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<link
-	href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900"
-	rel="stylesheet">
-
-<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 <style>
-div.c {
-	width: 12%;
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
 }
+.fa-shipping-fast{
+color: #00ACEE;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+
+ color: #4267B2;
+}
+
+.fa-twitter {
+  
+  color: #00ACEE;
+}
+
+
+.fa-linkedin {
+ 
+  color: #007bb5;
+}
+
+.fa-instagram {
+  
+  color: #E1306C;
+}
+
+.fa-youtube {
+  color:#bb0000 ;
+}
+
+
+body {
+    background: #fbfbfd;
+}
+
+.new_footer_area {
+    background: #fbfbfd;
+}
+
+
+.new_footer_top {
+    padding: 120px 0px 270px;
+    position: relative;
+      overflow-x: hidden;
+}
+.new_footer_area .footer_bottom {
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+.footer_bottom {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #7f88a6;
+    padding: 27px 0px;
+}
+.new_footer_top .company_widget p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #6a7695;
+    margin-bottom: 20px;
+}
+.new_footer_top .company_widget .f_subscribe_two .btn_get {
+    border-width: 1px;
+    margin-top: 20px;
+}
+.btn_get_two:hover {
+    background: transparent;
+    color: #5e2ced;
+}
+.btn_get:hover {
+    color: #fff;
+    background: #6754e2;
+    border-color: #6754e2;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+.new_footer_top .f_widget.about-widget .f_list li a:hover {
+    color: #5e2ced;
+}
+.new_footer_top .f_widget.about-widget .f_list li {
+    margin-bottom: 11px;
+}
+.f_widget.about-widget .f_list li:last-child {
+    margin-bottom: 0px;
+}
+.f_widget.about-widget .f_list li {
+    margin-bottom: 15px;
+}
+.f_widget.about-widget .f_list {
+    margin-bottom: 0px;
+}
+.new_footer_top .f_social_icon a {
+    width: 44px;
+    height: 44px;
+    line-height: 43px;
+    background: transparent;
+    border: 1px solid #e2e2eb;
+    font-size: 24px;
+}
+.f_social_icon a {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 45px;
+    color: #858da8;
+    display: inline-block;
+    background: #ebeef5;
+    text-align: center;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.ti-facebook:before {
+    content: "\e741";
+}
+.ti-twitter-alt:before {
+    content: "\e74b";
+}
+.ti-vimeo-alt:before {
+    content: "\e74a";
+}
+.ti-pinterest:before {
+    content: "\e731";
+}
+
+.btn_get_two {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #5e2ced;
+    border-color: #5e2ced;
+    color: #fff;
+}
+
+.btn_get_two:hover {
+    background: transparent;
+    color: #5e2ced;
+}
+
+.new_footer_top .f_social_icon a:hover {
+    background: #5e2ced;
+    border-color: #5e2ced;
+  color:white;
+}
+.new_footer_top .f_social_icon a + a {
+    margin-left: 4px;
+}
+.new_footer_top .f-title {
+    margin-bottom: 30px;
+    color: #263b5e;
+}
+.f_600 {
+    font-weight: 600;
+}
+.f_size_18 {
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #4b505e;
+}
+.new_footer_top .f_widget.about-widget .f_list li a {
+    color: #6a7695;
+}
+
+
+.new_footer_top .footer_bg {
+    position: absolute;
+    bottom: 0;
+    background: url("http://droitthemes.com/html/saasland/img/seo/footer_bg.png") no-repeat scroll center 0;
+    width: 100%;
+    height: 266px;
+}
+
+.new_footer_top .footer_bg .footer_bg_one {
+    background: url("https://1.bp.blogspot.com/-mvKUJFGEc-k/XclCOUSvCnI/AAAAAAAAUAE/jnBSf6Fe5_8tjjlKrunLBXwceSNvPcp3wCLcBGAsYHQ/s1600/volks.gif") no-repeat center center;
+    width: 330px;
+    height: 105px;
+  background-size:100%;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    -webkit-animation: myfirst 22s linear infinite;
+    animation: myfirst 22s linear infinite;
+}
+
+.new_footer_top .footer_bg .footer_bg_two {
+    background: url("https://1.bp.blogspot.com/-hjgfxUW1o1g/Xck--XOdlxI/AAAAAAAAT_4/JWYFJl83usgRFMvRfoKkSDGd--_Sv04UQCLcBGAsYHQ/s1600/cyclist.gif") no-repeat center center;
+    width: 88px;
+    height: 100px;
+  background-size:100%;
+    bottom: 0;
+    left: 38%;
+    position: absolute;
+    -webkit-animation: myfirst 30s linear infinite;
+    animation: myfirst 30s linear infinite;
+}
+
+
+
+@-moz-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/*************footer End*****************/
+
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </style>
 </head>
-
 <body>
 
 
 
+<footer class="new_footer_area bg_color">
+            <div class="new_footer_top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                                <h3 class="f-title f_600 t_color f_size_18">Shipping And Handling</h3>
+                          <p>webadmin@sarasavi.lk</p>
+                                <p>	Monday - Friday 9.30 am to 5.00 pm </p>
+                                <p> Saturday 9.30 am to 1.00 pm</p>
+                               
+<br>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                                <h3 class="f-title f_600 t_color f_size_18"></h3>
+                                <ul>
+                                 <br>
+                                   <li><a href="#">About Us</a></li>
+                                     <br>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                     <br>
+                                    <li><a href="#">Contact Us</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                                <h3 class="f-title f_600 t_color f_size_18"></h3>
+                                <ul>
+                                 <br>
+                                    <li><a href="#">Shipping And Return</a></li>
+                                    <br>
+                                    <li><a href="#">Terms Of Services</a></li>
+                                     <br>
+                                    <li><a href="#">Branches</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6">
+                            <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                                <h3 class="f-title f_600 t_color f_size_18"></h3>
+                               
+                                   <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
 
+<a href="#" class="fa fa-youtube"></a>
 
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="useful-links">
-						<div class="footer-heading">
-							<h4>Useful Links</h4>
-						</div>
-						<div class="row">
-							<div class="col-md-6">
-								<ul>
-									<li><a href="#"><i class="fa fa-stop"></i>About Us</a></li>
-									<li><a href="#"><i class="fa fa-stop"></i>Privacy
-											Policy</a></li>
-									<li><a href="#"><i class="fa fa-stop"></i>Contact Us</a></li>
+<a href="#" class="fa fa-linkedin"></a>
 
-								</ul>
-							</div>
-							<div class="col-md-6">
-								<ul>
-									<li><a href="#"><i class="fa fa-stop"></i>Shipping &
-											Return</a></li>
-									<li><a href="#"><i class="fa fa-stop"></i>Terms Of
-											Services</a></li>
-									<li><a href="#"><i class="fa fa-stop"></i>Brands</a></li>
+<a href="#" class="fa fa-instagram"></a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bg">
+                    <div class="footer_bg_one"></div>
+                    <div class="footer_bg_two"></div>
+                </div>
+            </div><center>
+            <div class="footer_bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+                       
+                            <p class="mb-0 f_400">© 2020-Y3-WE-26 2020 All rights reserved.</p>
+                        
+                            <p>Made with <i class="icon_heart"></i> in <a href="https://www.sliit.lk/">SLIIT</a></p>
+                       
+                    </div>
+                </div>
+            </div></center>
+        </footer>
 
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3"></div>
-
-				<div class="col-md-5">
-					<div class="about-veno">
-						<div class="logo">
-							<img src="img/shiping.png" alt="Shipping and Handling"
-								style="height: 80px; width: 100px">
-						</div>
-						<div class="footer-heading">
-							<h4>Shipping and Handling</h4>
-						</div>
-
-						<ul class="social-icons">
-							<li><a href="#"><i class="fa fa-facebook"></i></a> <a
-								href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i
-									class="fa fa-linkedin"></i></a> <a href="#"><i
-									class="fa fa-rss"></i></a> <a href="#"><i
-									class="fa fa-dribbble"></i></a></li>
-						</ul>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-
-
-	<script
-		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
-		type="text/javascript"></script>
-	<script>
-		window.jQuery
-				|| document
-						.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
-	</script>
-
-	<script src="js/vendor/bootstrap.min.js"></script>
-
-	<script src="js/datepicker.js"></script>
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
 </body>
 </html>
