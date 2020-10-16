@@ -29,20 +29,18 @@ a.impact {
 		style="display: none" id="mySidebar">
 		<button class="w3-bar-item w3-button w3-large" onclick="w3_close()">
 			&times;</button>
-		<a href="#" class="w3-bar-item w3-button sansserif">Home</a> <br>
-		<a href="#" class="w3-bar-item w3-button sansserif">Catalogues</a> <br>
-		<a href="#" class="w3-bar-item w3-button sansserif">Sarasavi
-			Publications</a> <br> <a href="#"
-			class="w3-bar-item w3-button sansserif">International Schools
-			Booklist</a> <br> <a href="#"
-			class="w3-bar-item w3-button sansserif">Doha Disconts</a> <br> <a
-			href="#" class="w3-bar-item w3-button ">ස්වර්ණ
-			පුස්තක</a> <br> <a href="#"
-			class="w3-bar-item w3-button sansserif">Sinhala Booklist</a> <br>
-		<a href="#" class="w3-bar-item w3-button sansserif">English
-			Booklist</a> <br> <a href="#"
-			class="w3-bar-item w3-button sansserif">New Arrivals</a> <br> <a
-			href="#" class="w3-bar-item w3-button sansserif">Best Selling</a> <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/Home.jsp" class="w3-bar-item w3-button sansserif">Home</a> <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/sarasavicatalog_view.jsp" class="w3-bar-item w3-button sansserif">Catalogues</a> <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/Sarasavi_publications.jsp"	class="w3-bar-item w3-button sansserif">Sarasavi Publications</a> <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/Book_List_Servlet"	class="w3-bar-item w3-button sansserif">International Schools Booklist</a> <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/doha_discounted.jsp" class="w3-bar-item w3-button sansserif">Doha Discounts</a> <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/Sarasavi_publications.jsp" class="w3-bar-item w3-button  sansserif" >Swarna Pusthaka�</a>  <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/sinhala_book.jsp" class="w3-bar-item w3-button sansserif">Sinhala Booklist</a> <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/English_book,jsp.jsp" class="w3-bar-item w3-button sansserif">English	Booklist</a> <br> 
+		<a href="http://localhost:8091/Sarasavi_Publications/new_arrival.jsp" class="w3-bar-item w3-button sansserif">New Arrivals</a> <br> 
+		<a href="http://localhost:8091/Sarasavi_Publications/Sarasavi_Best_Selling_Books.jsp" class="w3-bar-item w3-button sansserif">Best Selling</a> <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/Stationaries.jsp" class="w3-bar-item w3-button sansserif">Stationaries</a> <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/Gift_Voucher.jsp" class="w3-bar-item w3-button sansserif">Vouchers</a> <br> <br>
 	</div>
 
 	<div id="main">

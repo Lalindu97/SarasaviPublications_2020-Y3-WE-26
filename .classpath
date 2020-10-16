@@ -13,8 +13,9 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/thara/git/SarasaviPublications_2020-Y3-WE-26/WebContent/WEB-INF/lib/mysql-connector.jar"/>
-	<classpathentry kind="lib" path="C:/Users/thara/git/SarasaviPublications_2020-Y3-WE-26/WebContent/WEB-INF/lib/mysql-connector-java-5.1.47-bin.jar"/>
-	<classpathentry kind="lib" path="C:/Users/thara/git/SarasaviPublications_2020-Y3-WE-26/WebContent/WEB-INF/lib/tomcat-servlet-api-8.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lalin/Desktop/HCI/Sarasavi_Publications/WebContent/WEB-INF/lib/mysql-connector.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lalin/Desktop/HCI/Sarasavi_Publications/WebContent/WEB-INF/lib/mysql-connector-java-5.1.47-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lalin/Desktop/HCI/Sarasavi_Publications/WebContent/WEB-INF/lib/tomcat-servlet-api-8.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lalin/Desktop/HCI/Sarasavi_Publications/WebContent/WEB-INF/lib/mysql-connector-java-8.0.21.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

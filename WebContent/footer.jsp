@@ -287,11 +287,11 @@ h1, h2, h3, h4, h5, h6 {
                                 <h3 class="f-title f_600 t_color f_size_18"></h3>
                                 <ul>
                                  <br>
-                                   <li><a href="#">About Us</a></li>
+                                   <li><a href="http://localhost:8091/Sarasavi_Publications/about_us.jsp">About Us</a></li>
                                      <br>
-                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="http://localhost:8091/Sarasavi_Publications/Privacy_policy.jsp">Privacy Policy</a></li>
                                      <br>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="http://localhost:8091/Sarasavi_Publications/contact_us.jsp">Contact Us</a></li>
                                     
                                 </ul>
                             </div>
@@ -301,11 +301,11 @@ h1, h2, h3, h4, h5, h6 {
                                 <h3 class="f-title f_600 t_color f_size_18"></h3>
                                 <ul>
                                  <br>
-                                    <li><a href="#">Shipping And Return</a></li>
+                                    <li><a href="http://localhost:8091/Sarasavi_Publications/shipping.jsp">Shipping And Return</a></li>
                                     <br>
-                                    <li><a href="#">Terms Of Services</a></li>
+                                    <li><a href="http://localhost:8091/Sarasavi_Publications/terms_of_services.jsp">Terms Of Services</a></li>
                                      <br>
-                                    <li><a href="#">Branches</a></li>
+                                    <li><a href="http://localhost:8091/Sarasavi_Publications/Branch_network.jsp">Branches</a></li>
                                     
                                 </ul>
                             </div>
@@ -315,14 +315,14 @@ h1, h2, h3, h4, h5, h6 {
                             <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
                                 <h3 class="f-title f_600 t_color f_size_18"></h3>
                                
-                                   <a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
+                                   <a href="https://m.facebook.com/sarasavibooks/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/sarasavibooks?lang=en" class="fa fa-twitter"></a>
 
-<a href="#" class="fa fa-youtube"></a>
+<a href="https://www.youtube.com/channel/UCUjZNSutD2ik5h-1-vnftuQ" class="fa fa-youtube"></a>
 
-<a href="#" class="fa fa-linkedin"></a>
+<a href="https://lk.linkedin.com/in/premasiri-haputhantri-11280456" class="fa fa-linkedin"></a>
 
-<a href="#" class="fa fa-instagram"></a>
+<a href="https://instagram.com/sarasavi_bookshop_srilanka?igshid=1kyc2qolpz7em" class="fa fa-instagram"></a>
                                
                             </div>
                         </div>

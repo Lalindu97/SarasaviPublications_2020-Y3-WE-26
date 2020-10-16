@@ -33,7 +33,7 @@ a.impact {
   <a href="#" class="w3-bar-item w3-button sansserif">Sarasavi Publications</a>  <br>
    <a href="#" class="w3-bar-item w3-button sansserif">International Schools Booklist</a>  <br>
   <a href="#" class="w3-bar-item w3-button sansserif">Doha Disconts</a>  <br>
-  <a href="#" class="w3-bar-item w3-button " >ස්වර්ණ පුස්තක</a>  <br>
+  <a href="#" class="w3-bar-item w3-button sansserif" >Swarna Pusthaka�</a>  <br>
   <a href="#" class="w3-bar-item w3-button sansserif">Sinhala Booklist</a>  <br>
   <a href="#" class="w3-bar-item w3-button sansserif">English Booklist</a>  <br>
   <a href="#" class="w3-bar-item w3-button sansserif">New Arrivals</a>  <br>

@@ -59,13 +59,13 @@ input[type=text]:focus {
 				<div class="collapse navbar-collapse navbar-1">
 					<ul class="site-navigation nav">
 
-						<li><a href="#">Login</a></li>
+						<li><a href="http://localhost:8091/Sarasavi_Publications/Loginform.jsp"style="color:#007bff">Login</a></li>
 
-						<li><a href="#">Register</a></li>
+						<li><a href="http://localhost:8091/Sarasavi_Publications/Registerform.jsp"style="color:#007bff">Register</a></li>
 
-						<li><a href="#">My Account</a></li>
+						<li><a href="http://localhost:8091/Sarasavi_Publications/MyAccount.jsp"style="color:#007bff">My Account</a></li>
 						
-						<li><a href="#"><i class="fa fa-shopping-cart" style="font-size:36px"></i></a></li>
+						<li><a href="http://localhost:8091/Sarasavi_Publications/Cart_page.jsp"style="color:#007bff"><i class="fa fa-shopping-cart" style="font-size:36px"></i></a></li>
 
  						<form>
   							<input type="text" name="search" placeholder="Search..">

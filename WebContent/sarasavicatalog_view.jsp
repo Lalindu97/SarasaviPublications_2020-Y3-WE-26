@@ -93,20 +93,18 @@ a.impact {
 		style="display: none" id="mySidebar">
 		<button class="w3-bar-item w3-button w3-large" onclick="w3_close()">
 			&times;</button>
-		<a href="#" class="w3-bar-item w3-button sansserif">Home</a> <br>
-		<a href="#" class="w3-bar-item w3-button sansserif">Catalogues</a> <br>
-		<a href="#" class="w3-bar-item w3-button sansserif">Sarasavi
-			Publications</a> <br> <a href="#"
-			class="w3-bar-item w3-button sansserif">International Schools
-			Booklist</a> <br> <a href="#"
-			class="w3-bar-item w3-button sansserif">Doha Disconts</a> <br> <a
-			href="#" class="w3-bar-item w3-button ">ස්වර්ණ
-			පුස්තක</a> <br> <a href="#"
-			class="w3-bar-item w3-button sansserif">Sinhala Booklist</a> <br>
-		<a href="#" class="w3-bar-item w3-button sansserif">English
-			Booklist</a> <br> <a href="#"
-			class="w3-bar-item w3-button sansserif">New Arrivals</a> <br> <a
-			href="#" class="w3-bar-item w3-button sansserif">Best Selling</a> <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/Home.jsp" class="w3-bar-item w3-button sansserif">Home</a> <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/sarasavicatalog_view.jsp" class="w3-bar-item w3-button sansserif">Catalogues</a> <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/Sarasavi_publications.jsp"	class="w3-bar-item w3-button sansserif">Sarasavi Publications</a> <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/Book_List_Servlet"	class="w3-bar-item w3-button sansserif">International Schools Booklist</a> <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/doha_discounted.jsp" class="w3-bar-item w3-button sansserif">Doha Discounts</a> <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/Sarasavi_publications.jsp" class="w3-bar-item w3-button  sansserif" >Swarna Pusthaka�</a>  <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/sinhala_book.jsp" class="w3-bar-item w3-button sansserif">Sinhala Booklist</a> <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/English_book,jsp.jsp" class="w3-bar-item w3-button sansserif">English	Booklist</a> <br> 
+		<a href="http://localhost:8091/Sarasavi_Publications/new_arrival.jsp" class="w3-bar-item w3-button sansserif">New Arrivals</a> <br> 
+		<a href="http://localhost:8091/Sarasavi_Publications/Sarasavi_Best_Selling_Books.jsp" class="w3-bar-item w3-button sansserif">Best Selling</a> <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/Stationaries.jsp" class="w3-bar-item w3-button sansserif">Stationaries</a> <br>
+		<a href="http://localhost:8091/Sarasavi_Publications/Gift_Voucher.jsp" class="w3-bar-item w3-button sansserif">Vouchers</a> <br> <br>
 	</div>
 
 	<div id="main">
@@ -161,7 +159,7 @@ a.impact {
 											<br>
 											<h4 class="card-subtitle mb-2 text-muted">
 												<a class="d-flex justify-content-center"
-													href="http://localhost:8081/Sarasavi_Publications/2019Feb_view.jsp">
+													href="http://localhost:8091/Sarasavi_Publications/2019annual_view.jsp">
 													<img class="" src="img-t/2019.jpg"
 													style="height: 100%; width: 70%"
 													onerror="this.src='https://sarasavi.net/vendor/webkul/ui/assets/images/product/meduim-product-placeholder.png'"
@@ -171,8 +169,8 @@ a.impact {
 <br><center>
 											<h4 class="card-text">
 												<a
-													href="http://localhost:8081/Sarasavi_Publications/2019Feb_view.jsp">
-													2020 February Catalogue </a>
+													href="http://localhost:8091/Sarasavi_Publications/2019annual_view.jsp">
+													2019 Annual Catalogue </a>
 
 											</h4><br>
 											<div class="product-card__prices">LKR 2,500.00</div></center><br>
@@ -210,7 +208,7 @@ a.impact {
 											<br>
 											<h4 class="card-subtitle mb-2 text-muted">
 												<a class="d-flex justify-content-center"
-													href="http://localhost:8081/Sarasavi_Publications/2019Jan_view.jsp">
+													href="http://localhost:8091/Sarasavi_Publications/2019Jan_view.jsp">
 													<img class="" src="img-t/2019 jan.jpg"
 													style="height: 100%; width: 70%"
 													onerror="this.src='https://sarasavi.net/vendor/webkul/ui/assets/images/product/meduim-product-placeholder.png'"
@@ -220,11 +218,11 @@ a.impact {
 <br><center>
 											<h4 class="card-text">
 												<a
-													href="http://localhost:8081/Sarasavi_Publications/2019Jan_view.jsp">
+													href="http://localhost:8091/Sarasavi_Publications/2019Jan_view.jsp">
 													2020 January Catalogue</a>
 
 											</h4><br>
-											<div class="product-card__prices">LKR 2,500.00</div></center><br>
+											<div class="product-card__prices">LKR 1,500.00</div></center><br>
 										</div>
 									</div></div><div class="col-md-3"><br>
 									<div class="card " style="width: 25rem;">
@@ -236,7 +234,7 @@ a.impact {
 											<br>
 											<h4 class="card-subtitle mb-2 text-muted">
 												<a class="d-flex justify-content-center"
-													href="http://localhost:8081/Sarasavi_Publications/2019Mar_view.jsp">
+													href="http://localhost:8091/Sarasavi_Publications/2019Feb_view.jsp">
 													<img class="" src="img-t/2019 fe.jpg"
 													style="height: 100%; width: 70%"
 													onerror="this.src='https://sarasavi.net/vendor/webkul/ui/assets/images/product/meduim-product-placeholder.png'"
@@ -246,11 +244,11 @@ a.impact {
 <br><center>
 											<h4 class="card-text">
 												<a
-													href="http://localhost:8081/Sarasavi_Publications/2019Mar_view.jsp">
+													href="http://localhost:8091/Sarasavi_Publications/2019Feb_view.jsp">
 													2020 February Catalogue  </a>
 
 											</h4><br>
-											<div class="product-card__prices">LKR 2,500.00</div></center><br>
+											<div class="product-card__prices">LKR 1,500.00</div></center><br>
 										</div>
 									</div></div><div class="col-md-3"><br>
 									<div class="card " style="width: 25rem;">
@@ -262,7 +260,7 @@ a.impact {
 											<br>
 											<h4 class="card-subtitle mb-2 text-muted">
 												<a class="d-flex justify-content-center"
-													href="http://localhost:8081/Sarasavi_Publications/2019annual_view.jsp">
+													href="http://localhost:8091/Sarasavi_Publications/2019Mar_view.jsp">
 													<img class="" src="img-t/2019 mar.jpg"
 													style="height: 100%; width: 70%"
 													onerror="this.src='https://sarasavi.net/vendor/webkul/ui/assets/images/product/meduim-product-placeholder.png'"
@@ -272,11 +270,11 @@ a.impact {
 <br><center>
 											<h4 class="card-text">
 												<a
-													href="http://localhost:8081/Sarasavi_Publications/2019annual_view.jsp">
+													href="http://localhost:8091/Sarasavi_Publications/2019Mar_view.jsp">
 													2020 March-April-May Catalogue </a>
 <br>
 											</h4>
-											<div class="product-card__prices">LKR 2,500.00</div></center><br>
+											<div class="product-card__prices">LKR 1,500.00</div></center><br>
 										</div>
 									</div></div>
 								<div class="col-md-2"></div>

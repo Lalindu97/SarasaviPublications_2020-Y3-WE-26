@@ -70,7 +70,7 @@ public class Calculate_book_list extends HttpServlet {
 		session.setAttribute("list_book13", book13);
 		session.setAttribute("list_book14", book14);
 		
-		request.getRequestDispatcher("calculate_school_list.jsp").forward(request, response);
+		getServletContext().getRequestDispatcher("/MY_Wishlist.jsp").forward(request, response);
 		
 		}
 		else {

@@ -49,7 +49,7 @@ public class AnnualView2019_Servlet extends HttpServlet {
 
 		
 		double new_quantity = Double.parseDouble(quantity); 	
-		System.out.println("*****************quan : "+new_quantity);
+		//System.out.println("*****************quan : "+new_quantity);
 		
 		double new_price = Double.parseDouble(price); 	
 	//	System.out.println("*****************price : "+new_price);
@@ -74,7 +74,7 @@ public class AnnualView2019_Servlet extends HttpServlet {
 		if (status > 0) {
 
 			System.out.println("success");
-			
+			getServletContext().getRequestDispatcher("/MY_Wishlist.jsp").forward(request, response);
 		
 		
 		//request.getRequestDispatcher("2019annual_view.jsp").include(request, response);
